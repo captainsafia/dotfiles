@@ -16,6 +16,13 @@ filetype indent on
 set t_ut=
 set t_Co=256
 
+" Send more characters for redraws
+set ttyfast
+" Enable the mouse in all modes
+set mouse=a
+" Set the termianl used
+set ttymouse=xterm
+
 " Disable arrow keys
 inoremap  <Up>     <NOP>
 inoremap  <Down>   <NOP>
