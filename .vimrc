@@ -23,6 +23,11 @@ set mouse=a
 " Set the termianl used
 set ttymouse=xterm
 
+" Allows switching between buffers without having to save
+set hidden
+" Switch buffers using Ctrl + T and the buffer number
+map <C-T> :buffers<CR>:buffer<Space>
+
 " Disable arrow keys
 inoremap  <Up>     <NOP>
 inoremap  <Down>   <NOP>
